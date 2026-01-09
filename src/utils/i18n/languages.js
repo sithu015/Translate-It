@@ -16,6 +16,7 @@ export const basicLanguageList = [
   { code: "pt", name: "Portuguese" },
   { code: "ru", name: "Russian" },
   { code: "ja", name: "Japanese" },
+  { code: "my", name: "Burmese" },
   // Add other frequently used languages here if needed
 ];
 

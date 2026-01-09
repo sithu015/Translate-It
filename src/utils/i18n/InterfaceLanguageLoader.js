@@ -12,7 +12,8 @@ const interfaceLanguageCache = new Map();
 // Map of language codes to their chunk names for interface localization
 const INTERFACE_LANGUAGE_CHUNKS = {
   'en': 'locales/en',
-  'fa': 'locales/fa'
+  'fa': 'locales/fa',
+  'my': 'locales/my'
 };
 
 // Core interface languages that should be preloaded

@@ -1,0 +1,770 @@
+{
+  "options_loading": { "message": "ဆက်တင်များကို ဖွင့်နေသည်..." },
+  "app_welcome": { "message": "Translate It မှ ကြိုဆိုပါတယ်!" },
+  "IsRTL": { "message": "false" },
+
+  "name": { "message": "Translate It" },
+  "nameChrome": { "message": "Translate It" },
+  "nameFirefox": { "message": "Translate It" },
+  "description": { "message": "နေရာတိုင်းမှာ လွယ်ကူစွာ ဘာသာပြန်ပါ။" },
+
+  "theme_section_title": { "message": "အပြင်အဆင်" },
+  "localization_section_title": { "message": "Extension ဘာသာစကား" },
+
+  "context_menu_options": { "message": "ရွေးချယ်စရာများ" },
+  "context_menu_shortcuts": { "message": "ကီးဘုတ် ဖြတ်လမ်း" },
+  "context_menu_help": { "message": "အကူအညီ" },
+  "context_menu_translate_screen": { "message": "မျက်နှာပြင်ကို ဘာသာပြန်ပါ (Capture)" },
+  "context_menu_reload_extension": { "message": "Extension ကို ပြန်လည်စတင်ပါ (Debug)" },
+  "context_menu_translate_with_selection": { "message": "ရွေးချယ်ထားသော အစိတ်အပိုင်းကို ဘာသာပြန်ပါ" },
+  "context_menu_api_provider": { "message": "API ဝန်ဆောင်မှုပေးသူ" },
+  "api_provider_google": { "message": "Google Translate" },
+  "api_provider_gemini": { "message": "Gemini" },
+  "api_provider_webai": { "message": "WebAI" },
+  "api_provider_openai": { "message": "OpenAI" },
+  "api_provider_openrouter": { "message": "OpenRouter" },
+  "api_provider_deepseek": { "message": "DeepSeek" },
+  "api_provider_bing": { "message": "Microsoft Bing" },
+  "api_provider_browser": { "message": "Browser API" },
+  "api_provider_yandex": { "message": "Yandex Translate" },
+  "api_provider_browserapi": { "message": "Browser Translator" },
+  "api_provider_custom": { "message": "စိတ်ကြိုက် (OpenAI)" },
+  "api_provider_deepl": { "message": "DeepL" },
+
+  "google_translate_settings_title": { "message": "Google Translate" },
+  "google_translate_description": {
+    "message": "အခမဲ့ အများသုံး Google Translate endpoint ကို အသုံးပြုသည်။ API key မလိုအပ်ပါ။"
+  },
+
+  "yandex_translate_settings_title": { "message": "Yandex Translate" },
+  "yandex_translate_description": {
+    "message": "အခမဲ့ အများသုံး Yandex Translate endpoint ကို အသုံးပြုသည်။ API key မလိုအပ်ပါ။"
+  },
+
+  "deepl_translate_settings_title": { "message": "DeepL Translate" },
+  "deepl_translate_description": {
+    "message": "DeepL မှ AI အခြေပြု ဘာသာပြန် ဝန်ဆောင်မှု။ API key လိုအပ်သည်။"
+  },
+
+  "bing_translate_settings_title": { "message": "Microsoft Bing Translator" },
+  "bing_translate_description": {
+    "message": "အခမဲ့ အများသုံး Microsoft Bing Translator endpoint ကို အသုံးပြုသည်။ API key မလိုအပ်ပါ။"
+  },
+
+  "options_page_title": { "message": "ဆက်တင်များ" },
+  "options_description": { "message": "နေရာတိုင်းမှာ လွယ်ကူစွာ ဘာသာပြန်ပါ။" },
+  "options_changelog_loading": { "message": "ပြောင်းလဲမှုမှတ်တမ်းကို ဖွင့်နေသည်..." },
+  "github_link_title": { "message": "GitHub တွင် ကြည့်ရှုပါ" },
+
+  "options_error_same_languages": {
+    "message": "မူရင်းနှင့် ပစ်မှတ် ဘာသာစကား တူညီ၍ မရပါ။"
+  },
+  "options_error_empty_language": {
+    "message": "ဘာသာစကား ကွက်လပ်များ မဖြည့်ဘဲ ထား၍ မရပါ။"
+  },
+
+  "popup_loading": { "message": "Popup ကို ဖွင့်နေသည်..." },
+  "popup_translate_button_text": { "message": "ဘာသာပြန်ပါ" },
+
+  "export_settings_description": {
+    "message": "သင့်လက်ရှိ ဆက်တင်များကို အရန်သိမ်းရန် သို့မဟုတ် မျှဝေရန် JSON ဖိုင်အဖြစ် ထုတ်ယူပါ။"
+  },
+  "import_settings_description": {
+    "message": "သွင်းယူခြင်းသည် သင့်လက်ရှိ ဆက်တင်များကို ထပ်ရေးပါလိမ့်မည်။ အောင်မြင်စွာ သွင်းယူပြီးပါက စာမျက်နှာ ပြန်လည်စတင်ပါမည်။"
+  },
+
+  "languages_tab_title": { "message": "ဘာသာစကားများ" },
+  "appearance_tab_title": { "message": "အသွင်အပြင်" },
+  "activation_tab_title": { "message": "အသက်သွင်းခြင်း" },
+  "prompt_tab_title": { "message": "Prompt" },
+  "api_tab_title": { "message": "API ဆက်တင်များ" },
+  "import_export_tab_title": { "message": "သွင်းယူ/ထုတ်ယူ" },
+  "advance_tab_title": { "message": "အဆင့်မြင့်" },
+  "import_success": { "message": "ဆက်တင်များ အောင်မြင်စွာ သွင်းယူပြီးပါပြီ။" },
+
+  "prompt_reset_button": { "message": "မူလအတိုင်း ပြန်ထားပါ" },
+
+  "activation_group_general_title": { "message": "အထွေထွေ ခလုတ်" },
+  "activation_group_text_fields_title": { "message": "စာသား ကွက်လပ် ဘာသာပြန်ခြင်း" },
+  "activation_group_page_selection_title": { "message": "စာမျက်နှာပေါ် ရွေးချယ်ခြင်း" },
+  "activation_group_dictionary_title": { "message": "အဘိဓာန် စနစ်" },  "import_export_export_title": { "message": "ဆက်တင်များ ထုတ်ယူပါ" },
+  "import_export_import_title": { "message": "ဆက်တင်များ သွင်းယူပါ" },
+
+  "notification_update_title": { "message": "Extension အဆင့်မြှင့်တင်ပြီးပါပြီ" },
+  "notification_update_message": {
+    "message": "{appName} ကို ဗားရှင်း {version} သို့ အောင်မြင်စွာ အဆင့်မြှင့်တင်ပြီးပါပြီ။"
+  },
+
+  "ERRORS_TRANSLATION_TIMEOUT": { "message": "ဘာသာပြန်ခြင်း အချိန်ကုန်သွားပါပြီ။ ကျေးဇူးပြု၍ ထပ်မံ ကြိုးစားပါ။" },
+
+  "languages_section_title": { "message": "ဘာသာစကားများ" },
+  "source_language_label": { "message": "မူရင်း ဘာသာစကား" },
+  "target_language_label": { "message": "ပစ်မှတ် ဘာသာစကား" },
+  "source_language_placeholder": { "message": "မူရင်း ဘာသာစကား ရိုက်ထည့်ပါ" },
+  "target_language_placeholder": { "message": "ပစ်မှတ် ဘာသာစကား ရိုက်ထည့်ပါ" },
+
+  "help_tab_title": { "message": "အကူအညီ" },
+  "about_tab_title": { "message": "ဘာတွေအသစ်လဲ" },
+  "help_section_title": { "message": "အကူအညီ နှင့် စာရွက်စာတမ်းများ" },
+  "about_section_title": { "message": "ပြောင်းလဲမှုမှတ်တမ်း" },
+  "options_changelog_error": { "message": "ပြောင်းလဲမှုမှတ်တမ်း ဖွင့်မရပါ။" },
+  "help_shortcut_title": { "message": "ကီးဘုတ် ဖြတ်လမ်းများကို ဘယ်လို ပြောင်းမလဲ?" },
+  "help_shortcut_content_p1": {
+    "message": "Firefox တွင်၊ ဖြတ်လမ်းများကို Add-ons စာမျက်နှာမှတဆင့် စီမံနိုင်သည်:"
+  },
+  "help_shortcut_content_li1": {
+    "message": "Address bar တွင် **about:addons** သို့ သွားပါ။"
+  },
+  "help_shortcut_content_li2": {
+    "message": "ညာဘက်အပေါ်ထောင့်ရှိ **ဂီယာပုံ (⚙️)** ကို နှိပ်ပါ။"
+  },
+  "help_shortcut_content_li3": {
+    "message": "မီနူးမှ **Manage Extension Shortcuts** ကို ရွေးပါ။"
+  },
+  "help_shortcut_content_li4": {
+    "message": "**Translate It** ကို ရှာပြီး သင်လိုချင်သော ဖြတ်လမ်းကို သတ်မှတ်ပါ။"
+  },
+  "help_api_keys_title": { "message": "API key များကို ဘယ်ကရမလဲ?" },
+  "help_api_keys_content": {
+    "message": "**API** tab တွင် ဝန်ဆောင်မှုပေးသူ တစ်ခုချင်းစီ၏ ဝက်ဘ်ဆိုက် လင့်ခ်များကို တွေ့နိုင်ပါသည်။ Key ထုတ်ယူရန် သက်ဆိုင်ရာ ပလက်ဖောင်းများတွင် အကောင့်ဖွင့်ရန် လိုအပ်ပါသည်။"
+  },
+  "help_free_providers_title": { "message": "အခမဲ့ ဝန်ဆောင်မှုပေးသူများ (API Key မလိုအပ်ပါ)" },
+  "help_api_providers_title": { "message": "API အခြေပြု ဝန်ဆောင်မှုပေးသူများ (API Key လိုအပ်ပါသည်)" },
+
+  "help_shortcut_content_p2": {
+    "message": "**Chrome** တွင်၊ လုပ်ဆောင်ပုံ ကွဲပြားသည်:"
+  },
+  "help_shortcut_content_chrome_li1": {
+    "message": "Extension အိုင်ကွန်ကို Right-click နှိပ်ပါ။"
+  },
+  "help_shortcut_content_chrome_li2": {
+    "message": "မီနူးမှ **Keyboard shortcuts** (ကီးဘုတ် ဖြတ်လမ်းများ) ကို ရွေးပါ။"
+  },
+  "help_shortcut_content_chrome_li3": {
+    "message": "**Translate It** ဘေးရှိ ခဲတံပုံ (✏️) ကို နှိပ်ပြီး သင့်ဖြတ်လမ်းအသစ်ကို ရိုက်ထည့်ပါ။"
+  },
+
+  "translation_activation_section_title": {
+    "message": "ဘာသာပြန်ခြင်း အသက်သွင်းနည်းများ"
+  },
+  "extension_enabled_label": { "message": "Extension ကို ဖွင့်ပါ" },
+  "extension_enabled_description": {
+    "message": "Popup မှလွဲ၍ ကျန် extension လုပ်ဆောင်ချက်အားလုံးကို ဖွင့်ရန် သို့မဟုတ် ပိတ်ရန်။"
+  },
+  "translate_on_text_fields_label": {
+    "message": "စာသား ကွက်လပ်များတွင် ဘာသာပြန် အိုင်ကွန် ပြပါ"
+  },
+  "translate_on_text_fields_description": {
+    "message": "input/textarea ကွက်လပ်များအတွင်း အိုင်ကွန်မှတဆင့် ဘာသာပြန်ခြင်းကို လျင်မြန်စွာ အသုံးပြုနိုင်သည်။"
+  },
+  "enable_shortcut_for_text_fields_label": {
+    "message": "စာသား ကွက်လပ်များအတွက် ဖြတ်လမ်း ဖွင့်ပါ"
+  },
+  "enable_shortcut_for_text_fields_description": {
+    "message": "စာသား ကွက်လပ်အတွင်း ရှိနေချိန် Ctrl+/ နှိပ်၍ ဘာသာပြန်ခြင်းကို ခွင့်ပြုသည်။"
+  },
+  "translate_with_select_element_label": {
+    "message": "element ရွေးချယ်၍ ဘာသာပြန်ခြင်းကို ဖွင့်ပါ"
+  },
+  "translate_with_select_element_description": {
+    "message": "သီးခြား ရွေးချယ်နည်းလမ်း (ဥပမာ - စာပိုဒ်တစ်ခုလုံး ရွေးခြင်း) ဖြင့် ဘာသာပြန်ခြင်းကို ခွင့်ပြုသည်။"
+  },
+  "translate_on_text_selection_label": {
+    "message": "စာသား ရွေးချယ်မှုတွင် ဘာသာပြန်ခြင်း ဖွင့်ပါ"
+  },
+  "translate_on_text_selection_description": {
+    "message": "စာမျက်နှာပေါ်တွင် စာသား ရွေးချယ်ပြီးနောက် အလိုအလျောက် သို့မဟုတ် အိုင်ကွန်မှတဆင့် ဘာသာပြန်ခြင်းကို ခွင့်ပြုသည်။"
+  },
+  "options_textField_mode_copy": {
+    "message": "Clipboard သို့ ကူးယူပါ"
+  },
+  "options_textField_mode_replace": {
+    "message": "Textfield တွင် အစားထိုးပါ"
+  },
+  "enable_replace_on_special_sites": {
+    "message": "အထူး ဆိုက်များ (WhatsApp, Telegram, Instagram စသည်) တွင် အစားထိုးခြင်း ဖွင့်ပါ"
+  },
+  "options_selection_mode_label": {
+    "message": "ရွေးချယ်မှု ဘာသာပြန် စနစ်"
+  },
+  "options_selection_mode_immediate": {
+    "message": "ချက်ချင်း ဘာသာပြန်ပါ"
+  },
+  "options_selection_mode_onclick": {
+    "message": "နှိပ်မှ ဘာသာပြန် အိုင်ကွန် ပြပါ"
+  },
+  "require_ctrl_for_text_selection_label": {
+    "message": "စာသား ရွေးချယ်မှု ဘာသာပြန်ရန် Ctrl key လိုအပ်သည်"
+  },
+  "require_ctrl_for_text_selection_description": {
+    "message": "စာသား ရွေးချယ်မှု ဘာသာပြန်ခြင်း ဖွင့်ထားချိန်တွင်၊ ဘာသာပြန်ရန်အတွက် ရွေးချယ်နေစဉ် Ctrl key ဖိထားရန် လိုအပ်သည်။"
+  },
+  "active_selection_icon_on_textfields_label": {
+    "message": "Textfields တွင် Double Click ဖြင့် အသက်သွင်းပါ"
+  },
+  "active_selection_icon_on_textfields_description": {
+    "message": "စာသား ကွက်လပ် (textarea) အတွင်း စာသားကို နှစ်ချက်နှိပ်ရွေးချယ်သောအခါ ဘာသာပြန် အိုင်ကွန် ပြပါ။"
+  },
+  "enhanced_triple_click_drag_label": {
+    "message": "အဆင့်မြင့် Triple-Click + Drag ပံ့ပိုးမှု"
+  },
+  "enhanced_triple_click_drag_description": {
+    "message": "ဖွင့်ထားပါက၊ စာပိုဒ်ရွေးရန် သုံးချက်နှိပ်ပြီး ဆွဲယူ၍ ရွေးချယ်မှု တိုးချဲ့သောအခါ၊ မောက်စ် မလွှတ်မချင်း ဘာသာပြန်ခြင်း ပြမည်မဟုတ်ပါ။ ၎င်းသည် စာပိုဒ်များစွာ ရွေးချယ်လိုသောအခါ စောစီးစွာ ဘာသာပြန်ခြင်းကို တားဆီးပေးသည်။"
+  },
+  "enable_dictionary_translation_label": {
+    "message": "အဘိဓာန် ဘာသာပြန်ခြင်း ဖွင့်ပါ"
+  },
+  "enable_dictionary_translation_description": {
+    "message": "စာသား ရွေးချယ်မှု ဘာသာပြန်ခြင်း ဖွင့်ထားချိန်တွင်၊ စာလုံးတစ်လုံးချင်း သို့မဟုတ် စာစုတိုများကို အဘိဓာန်ကြည့်သကဲ့သို့ မှတ်ယူပြီး ပုံမှန် ဘာသာပြန်မည့်အစား အသေးစိတ် အဓိပ္ပါယ်ဖွင့်ဆိုချက်များ ပေးပါမည်။"
+  },
+
+  "prompt_section_title": { "message": "Prompt ပုံစံခွက်" },
+  "prompt_template_label": { "message": "Prompt ပုံစံခွက်" },
+  "prompt_template_info": {
+    "message": "သင့် prompt ကို စိတ်ကြိုက်ပြင်ဆင်ရန် keywords များ သုံးပါ..."
+  },
+  "prompt_template_placeholder": {
+    "message": "သင့် prompt ပုံစံခွက်ကို ဤနေရာတွင် ရိုက်ထည့်ပါ။ $_{SOURCE}, $_{TARGET}, နှင့် $_{TEXT} ကဲ့သို့ keywords များ သုံးပါ။"
+  },
+  "prompt_template_help": {
+    "message": "သင့် prompt ပုံစံခွက်တွင် အောက်ပါ keywords များကို သုံးနိုင်သည်:"
+  },
+
+  "api_section_title": { "message": "ဘာသာပြန် API" },
+  "translation_api_label": { "message": "API ဝန်ဆောင်မှု ရွေးချယ်ရန်" },
+  "gemini_api_settings_title": { "message": "Gemini ဆက်တင်များ" },
+  "gemini_api_key_info": {
+    "message": "Gemini API key ကို Google AI Studio မှ ရယူနိုင်ပါသည်။"
+  },
+  "openai_api_key_info": {
+    "message": "OpenAI API key ကို OpenAI Platform မှ ရယူနိုင်ပါသည်။"
+  },
+  "deepseek_api_key_info": {
+    "message": "DeepSeek API key ကို DeepSeek Platform မှ ရယူနိုင်ပါသည်။"
+  },
+  "openrouter_api_key_info": {
+    "message": "OpenRouter API key ကို OpenRouter Platform မှ ရယူနိုင်ပါသည်။"
+  },
+  "webai_api_key_info": {
+    "message": "သင့် WebAI API server ကို ကိုယ်တိုင် host လုပ်ပြီး run နိုင်ပါသည်။"
+  },
+  "gemini_api_key_link": { "message": "အခမဲ့ API Key ရယူပါ" },
+  "openai_api_key_link": { "message": "API Key ရယူပါ" },
+  "deepseek_api_key_link": { "message": "API Key ရယူပါ" },
+  "openrouter_api_key_link": { "message": "API Key ရယူပါ" },
+  "webai_api_key_link": { "message": "API Server ကို Locally Run ပါ" },
+  "gemini_api_settings_api_key_label": { "message": "API Key" },
+  "gemini_api_key_placeholder": { "message": "သင့် API key ကို ဤနေရာတွင် paste လုပ်ပါ" },
+  "gemini_api_settings_api_url_label": { "message": "API URL" },
+  "gemini_api_url_placeholder": { "message": "မူလ Gemini API URL" },
+  "gemini_api_url_info": { "message": "မူလ Gemini API endpoint သုံးရန် ကွက်လပ်ထားခဲ့ပါ" },
+  "gemini_custom_model_label": { "message": "စိတ်ကြိုက် Model အမည်" },
+  "gemini_custom_model_placeholder": { "message": "စိတ်ကြိုက် model အမည် ရိုက်ထည့်ပါ" },
+  "gemini_custom_model_info": { "message": "Google မှ ပေးထားသည့် အတိုင်း model အမည် အတိအကျ ရိုက်ထည့်ပါ" },
+  "gemini_custom_api_url_info": { "message": "Model အမည် အပါအဝင် API URL အပြည့်အစုံ ရိုက်ထည့်ပါ" },
+  "webai_api_settings_title": { "message": "WebAI ဆက်တင်များ" },
+  "webai_api_url_label": { "message": "API URL" },
+  "webai_api_url_placeholder": { "message": "WebAI API URL ရိုက်ထည့်ပါ" },
+  "webai_api_model_label": { "message": "Model" },
+  "webai_api_model_placeholder": { "message": "WebAI API model ရိုက်ထည့်ပါ" },
+  "openai_api_settings_title": { "message": "OpenAI ဆက်တင်များ" },
+  "openai_api_settings_api_key_label": { "message": "API Key" },
+  "openai_api_key_placeholder": { "message": "သင့် OpenAI API key ကို ဤနေရာတွင် paste လုပ်ပါ" },
+  "openai_api_settings_model_label": { "message": "Model" },
+  "openai_api_model_placeholder": { "message": "OpenAI model ရိုက်ထည့်ပါ" },
+  "openrouter_api_settings_title": { "message": "OpenRouter ဆက်တင်များ" },
+  "openrouter_api_settings_api_key_label": { "message": "API Key" },
+  "openrouter_api_key_placeholder": {
+    "message": "သင့် OpenRouter API key ကို ဤနေရာတွင် paste လုပ်ပါ"
+  },
+  "openrouter_api_settings_model_label": { "message": "Model" },
+  "openrouter_api_model_placeholder": {
+    "message": "OpenRouter model ရိုက်ထည့်ပါ (ဥပမာ - openai/gpt-4o)"
+  },
+  "deepseek_api_settings_title": { "message": "DeepSeek ဆက်တင်များ" },
+  "deepseek_api_settings_api_key_label": { "message": "API Key" },
+  "deepseek_api_key_placeholder": {
+    "message": "သင့် DeepSeek API key ကို ဤနေရာတွင် paste လုပ်ပါ"
+  },
+  "deepseek_api_settings_model_label": { "message": "Model" },
+  "deepseek_api_model_placeholder": {
+    "message": "DeepSeek model ရိုက်ထည့်ပါ (ဥပမာ - deepseek-chat)"
+  },
+
+  "deepl_api_settings_title": { "message": "DeepL API ဆက်တင်များ" },
+  "deepl_api_key_info": {
+    "message": "DeepL API key ကို ဤနေရာမှ ရယူနိုင်ပါသည် -"
+  },
+  "deepl_api_key_link": { "message": "DeepL API" },
+  "deepl_free_api_info": {
+    "message": "တစ်လလျှင် စာလုံးရေ ၅၀၀,၀၀၀ အခမဲ့ ရရှိနိုင်သည်။"
+  },
+  "deepl_api_key_label": { "message": "API Key" },
+  "deepl_api_key_placeholder": { "message": "သင့် DeepL API key ကို ဤနေရာတွင် paste လုပ်ပါ" },
+  "deepl_api_tier_label": { "message": "API အဆင့်" },
+  "deepl_api_tier_free": { "message": "အခမဲ့ API (api-free.deepl.com)" },
+  "deepl_api_tier_pro": { "message": "Pro API (api.deepl.com)" },
+  "deepl_free_tier_description": {
+    "message": "တစ်လလျှင် စာလုံးရေ ၅၀၀,၀၀၀ ကန့်သတ်ချက်ဖြင့် အခမဲ့ API endpoint။ api-free.deepl.com ကို အသုံးပြုသည်။"
+  },
+  "deepl_pro_tier_description": {
+    "message": "သင့် subscription ပေါ်မူတည်၍ ကန့်သတ်ချက် ပိုမြင့်သော Pro API endpoint။ api.deepl.com ကို အသုံးပြုသည်။"
+  },
+  "deepl_formality_label": { "message": "ဘာသာပြန် ယဉ်ကျေးမှုအဆင့်" },
+  "deepl_formality_description": {
+    "message": "ဘာသာပြန်၏ ယဉ်ကျေးမှုအဆင့်ကို ထိန်းချုပ်ပါ။ အချို့ ဘာသာစကားများတွင် ရွေးချယ်စရာ အားလုံး မရနိုင်ပါ။"
+  },
+  "deepl_formality_default": { "message": "မူလ (အလိုအလျောက်)" },
+  "deepl_formality_more": { "message": "ပိုမို ယဉ်ကျေးသော" },
+  "deepl_formality_less": { "message": "သာမန်" },
+  "deepl_formality_prefer_more": { "message": "ပိုမို ယဉ်ကျေးသည်ကို ဦးစားပေးရန်" },
+  "deepl_formality_prefer_less": { "message": "သာမန်ကို ဦးစားပေးရန်" },
+  "deepl_beta_languages_label": { "message": "Beta ဘာသာစကားများ ဖွင့်ပါ" },
+  "deepl_beta_languages_description": {
+    "message": "Beta ဘာသာစကား ပံ့ပိုးမှုကို ဖွင့်ပါ။ Beta ဘာသာစကားများတွင် ယဉ်ကျေးမှုအဆင့် ဆက်တင်များ မရနိုင်ပါ။"
+  },
+
+  "custom_api_settings_title": { "message": "စိတ်ကြိုက် API ဆက်တင်များ" },
+  "custom_api_settings_description": {
+    "message": "OpenAI chat completions format နှင့် ကိုက်ညီသော မည်သည့် ဝန်ဆောင်မှုကိုမဆို အသုံးပြုပါ။"
+  },
+  "custom_api_settings_api_url_label": { "message": "API URL" },
+  "custom_api_url_placeholder": {
+    "message": "သင့်စိတ်ကြိုက် API ၏ `v1/chat/completions` endpoint URL ကို ရိုက်ထည့်ပါ။"
+  },
+  "custom_api_url_example": { "message": "ဥပမာ -" },
+  "custom_api_settings_api_key_label": { "message": "API Key" },
+  "custom_api_key_placeholder": { "message": "သင့်စိတ်ကြိုက် API key ကို ဤနေရာတွင် paste လုပ်ပါ" },
+  "custom_api_settings_model_label": { "message": "Model" },
+  "custom_api_model_placeholder": { "message": "Model အမည် ရိုက်ထည့်ပါ" },
+
+  "import_export_section_title": { "message": "ဆက်တင်များ သွင်းယူ/ထုတ်ယူ" },
+  "export_settings_button": { "message": "ဆက်တင်များ ထုတ်ယူပါ" },
+  "export_password_label": { "message": "🔐 ထုတ်ယူရန် စကားဝှက် (လုံခြုံရေးအတွက် အကြံပြုပါသည်)" },
+  "export_password_placeholder": { "message": "သင့် API keys များကို ကာကွယ်ရန် ခိုင်မာသော စကားဝှက်တစ်ခု ဖန်တီးပါ" },
+  "export_password_description": {
+    "message": "<strong>🔒 အထူးအကြံပြုပါသည် -</strong> စစ်ဘက်အဆင့် AES-256 encryption သုံးပြီး သင့် API keys များ encrypt လုပ်ရန် စကားဝှက် တစ်ခု ရိုက်ထည့်ပါ။<br><strong>⚠️ စကားဝှက် မပါလျှင် -</strong> သင့် API keys များသည် plain text အနေဖြင့် ထွက်လာမည်ဖြစ်ပြီး ဖိုင်ကို ရယူနိုင်သူတိုင်း မြင်နိုင်ပါမည်။<br><strong>📝 မှတ်ထားပါ -</strong> ဤဆက်တင်များကို ပြန်လည်သွင်းယူသောအခါ ဤစကားဝှက်ကို ပြန်သုံးရန် လိုအပ်ပါမည်။"
+  },
+  "import_settings_label": { "message": "ဆက်တင်များ သွင်းယူပါ" },
+  "import_settings_button": { "message": "ဆက်တင်များ သွင်းယူပါ" },
+  "import_password_label": { "message": "🔑 သွင်းယူရန် စကားဝှက် လိုအပ်သည်" },
+  "import_password_placeholder": { "message": "ထုတ်ယူစဉ်က သုံးခဲ့သော စကားဝှက်ကို ရိုက်ထည့်ပါ" },
+  "import_password_description": {
+    "message": "<strong>🔐 Encrypted ဖိုင် တွေ့ရှိပါသည် -</strong> ဤဆက်တင်ဖိုင်တွင် encrypt လုပ်ထားသော API keys များ ပါရှိသည်။<br><strong>🔑 စကားဝှက် ရိုက်ထည့်ပါ -</strong> ထုတ်ယူစဉ်က သင်ဖန်တီးခဲ့သော စကားဝှက်ကို အသုံးပြုပါ။<br><strong>⏎ Enter ခေါက်ပါ -</strong> စကားဝှက် ရိုက်ပြီးပါက Enter နှိပ်၍ သွင်းယူပါ။"
+  },
+  "security_warning_title": { "message": "⚠️ လုံခြုံရေး သတိပေးချက် ⚠️" },
+  "security_warning_message": {
+    "message": "သင်သည် စကားဝှက် ကာကွယ်မှု မပါဘဲ သင့်ဆက်တင်များကို ထုတ်ယူတော့မည်။\nသင့် API keys များသည် PLAIN TEXT အနေဖြင့် သိမ်းဆည်းမည်ဖြစ်ပြီး မည်သူမဆို ဖတ်ရှုနိုင်မည်ဖြစ်သည်။\n\n🔒 လုံခြုံရေးအတွက်၊ စကားဝှက် အသုံးပြုရန် အလေးအနက် အကြံပြုပါသည်။"
+  },
+  "security_warning_question": { "message": "စကားဝှက် ကာကွယ်မှု မပါဘဲ ဆက်သွားလိုပါသလား?" },
+  "save_settings_button": { "message": "ဆက်တင်များကို သိမ်းဆည်းပါ" },
+  "excluded_sites_label": {
+    "message": "ချန်လှပ်ထားမည့် ဆိုက်များ (ကော်မာခံပြီး ရေးပါ)"
+  },
+
+  "advance_dev_api_mode_label": { "message": "Dev API Mode သုံးပါ" },
+  "advance_debug_mode_label": { "message": "Debug Mode" },
+
+  "proxy_section_title": { "message": "Proxy ဆက်တင်များ" },
+  "proxy_section_description": { "message": "ပထဝီဝင်ဆိုင်ရာ ကန့်သတ်ချက်ရှိသော ဝန်ဆောင်မှုများအတွက် Proxy ဆက်တင်များ ပြင်ဆင်ပါ (ဥပမာ - Iran မှ Gemini သုံးရန်)" },
+  "proxy_enabled_label": { "message": "Proxy ဖွင့်ပါ" },
+  "proxy_type_label": { "message": "Proxy အမျိုးအစား" },
+  "proxy_host_label": { "message": "Host" },
+  "proxy_port_label": { "message": "Port" },
+  "proxy_username_label": { "message": "အသုံးပြုသူအမည် (ရှိလျှင်)" },
+  "proxy_password_label": { "message": "စကားဝှက် (ရှိလျှင်)" },
+  "proxy_testing": { "message": "စမ်းသပ်နေသည်..." },
+  "proxy_test_direct": { "message": "တိုက်ရိုက် ချိတ်ဆက်မှု စမ်းသပ်ပါ" },
+  "proxy_test_proxy": { "message": "Proxy ချိတ်ဆက်မှု စမ်းသပ်ပါ" },
+  "proxy_test_success": { "message": "Proxy ချိတ်ဆက်မှု အောင်မြင်သည်!" },
+  "proxy_test_failed": { "message": "Proxy ချိတ်ဆက်မှု မအောင်မြင်ပါ။ သင့်ဆက်တင်များကို စစ်ဆေးပါ။" },
+  "direct_test_success": { "message": "တိုက်ရိုက် ချိတ်ဆက်မှု အောင်မြင်သည်!" },
+  "direct_test_failed": { "message": "တိုက်ရိုက် ချိတ်ဆက်မှု မအောင်မြင်ပါ။ သင့်အင်တာနက်လိုင်းကို စစ်ဆေးပါ။" },
+  "proxy_test_error": { "message": "စမ်းသပ်မှုတွင် အမှားအယွင်း ဖြစ်ပေါ်ခဲ့သည်။" },
+  "proxy_warning_title": { "message": "Browser Extension ကန့်သတ်ချက်" },
+  "proxy_warning_message": { "message": "Browser extension များသည် လုံခြုံရေး ကန့်သတ်ချက်များကြောင့် proxy server များကို တိုက်ရိုက် အသုံးမပြုနိုင်ပါ။ ဤဆက်တင်သည် ရည်ရွယ်ချက်ကိုသာ သတ်မှတ်ပေးသော်လည်း၊ တကယ်တမ်း proxy အသုံးပြုရန် အပိုပြင်ဆင်မှုများ လိုအပ်နိုင်သည် သို့မဟုတ် မျှော်မှန်းထားသည်နှင့် ကွဲပြားစွာ အလုပ်လုပ်နိုင်သည်။" },
+  "proxy_config_invalid": { "message": "Proxy ပြင်ဆင်မှု မမှန်ကန်ပါ။ သင့်ဆက်တင်များကို စစ်ဆေးပါ။" },
+  "proxy_host_invalid": { "message": "Hostname မမှန်ကန်ပါ။ မှန်ကန်သော domain အမည် သို့မဟုတ် IP address ရိုက်ထည့်ပါ။" },
+
+  "theme_auto": { "message": "အလိုအလျောက် (System)" },
+  "theme_light": { "message": "အလင်းရောင်" },
+  "theme_dark": { "message": "အမှောင်" },
+  "theme_toggle_title": { "message": "အပြင်အဆင် ပြောင်းပါ" },
+
+  "popup_page_title": { "message": "Translate It!" },
+  "popup_translate_page_link": { "message": "စာမျက်နှာကို ဘာသာပြန်ပါ" },
+  "popup_translate_page_link_title": { "message": "Tab အသစ်တွင် ဘာသာပြန် ဖွင့်ပါ" },
+  "popup_select_element_alt_icon": { "message": "Element ရွေးချယ်ပါ" },
+  "popup_select_element_title_icon": { "message": "Element ရွေးချယ်မှု စနစ်" },
+  "popup_revert_alt_icon": { "message": "ပြန်ပြင်ပါ" },
+  "popup_revert_title_icon": { "message": "ပြန်ပြင်ပါ (Esc Key)" },
+  "popup_clear_storage_alt_icon": { "message": "ရှင်းလင်းပါ" },
+  "popup_clear_storage_title_icon": { "message": "ကွက်လပ်များ ရှင်းလင်းပါ" },
+  "popup_settings_alt_icon": { "message": "ဆက်တင်များ" },
+  "popup_settings_title_icon": { "message": "ဆက်တင်များ" },
+  "popup_target_language_title": { "message": "ပစ်မှတ် ဘာသာစကား" },
+  "popup_target_language_placeholder": { "message": "ပစ်မှတ် ဘာသာစကား" },
+  "popup_clear_target_language_title": { "message": "ပစ်မှတ် ဘာသာစကား ရှင်းလင်းပါ" },
+  "popup_swap_languages_title": { "message": "ဘာသာစကားများ ဖလှယ်ပါ" },
+  "popup_swap_languages_alt_icon": { "message": "ဖလှယ်ပါ" },
+  "popup_source_language_placeholder": { "message": "မူရင်း ဘာသာစကား" },
+  "popup_source_language_title": { "message": "မူရင်း ဘာသာစကား" },
+  "popup_clear_source_language_title": { "message": "မူရင်း ဘာသာစကား ရှင်းလင်းပါ" },
+  "popup_translate_button_title": { "message": "ဘာသာပြန်ပါ" },
+  "popup_translate_button_alt_icon": { "message": "ဘာသာပြန်ပါ" },
+  "popup_exclude_toggle_title": { "message": "ဤဆိုက်တွင် ဖွင့်/ပိတ်ပါ" },
+  "popup_copy_source_alt_icon": { "message": "ကူးယူပါ" },
+  "popup_copy_source_title_icon": { "message": "မူရင်းစာသား ကူးယူပါ" },
+  "popup_voice_source_alt_icon": { "message": "မူရင်း အသံထွက်" },
+  "popup_voice_source_title_icon": { "message": "အသံထွက်" },
+  "popup_paste_source_alt_icon": { "message": "Paste" },
+  "popup_paste_source_title_icon": { "message": "Clipboard မှ Paste လုပ်ပါ" },
+  "popup_target_text_placeholder": { "message": "ဘာသာပြန် ရလဒ် ဤနေရာတွင် ပေါ်လာပါမည်..." },
+  "popup_source_text_placeholder": { "message": "စာသား ဤနေရာတွင် ရိုက်ထည့်ပါ..." },
+  "popup_copy_target_alt_icon": { "message": "ရလဒ် ကူးယူပါ" },
+  "popup_copy_target_title_icon": { "message": "ရလဒ်စာသား ကူးယူပါ" },
+  "popup_voice_target_alt_icon": { "message": "ရလဒ် အသံထွက်" },
+  "popup_voice_target_title_icon": { "message": "အသံထွက်" },
+  "popup_string_during_translate": { "message": "ဘာသာပြန်နေသည်..." },
+  "popup_string_error_sending": { "message": "တောင်းဆိုမှု ပေးပို့ခြင်း အမှားအယွင်း။" },
+  "popup_string_error_response_empty": { "message": "(ဘာသာပြန် ရလဒ် ဗလာဖြစ်နေသည်)" },
+  "popup_string_translate_error_trigger": {
+    "message": "ဘာသာပြန် စတင်မှု အမှားအယွင်း။"
+  },
+  "popup_string_translate_error_response": {
+    "message": "ဘာသာပြန် တုံ့ပြန်မှု အမှားအယွင်း။"
+  },
+  "popup_open_side_panel_title": {
+    "message": "ဘေးဘောင်"
+  },
+
+  "api_key_show": { "message": "ပြပါ" },
+  "api_key_hide": { "message": "ဝှက်ထားပါ" },
+
+  "SIDEPANEL_SOURCE_TEXT_LABEL": { "message": "မူရင်း စာသား" },
+  "SIDEPANEL_TARGET_TEXT_LABEL": { "message": "ဘာသာပြန်" },
+  "SIDEPANEL_SOURCE_TEXT_PLACEHOLDER": { "message": "ရိုက်ထည့်ပါ..." },
+  "SIDEPANEL_TARGET_TEXT_PLACEHOLDER": { "message": "ဘာသာပြန် ရလဒ် ဤနေရာတွင် ပေါ်လာပါမည်..." },
+  "SIDEPANEL_SELECT_ELEMENT_MESSAGE": { "message": "ဘာသာပြန်ရန် ဝက်ဘ်စာမျက်နှာပေါ်ရှိ မည်သည့် element ကိုမဆို နှိပ်ပါ..." },
+  "SIDEPANEL_TRANSLATE_BUTTON_TEXT": { "message": "ဘာသာပြန်ပါ" },
+  "SIDEPANEL_SETTINGS_TITLE_ICON": { "message": "ရွေးချယ်စရာများ" },
+  "SIDEPANEL_CLEAR_STORAGE_TITLE_ICON": { "message": "ကွက်လပ်များ ရှင်းလင်းပါ" },
+  "SIDEPANEL_REVERT_TOOLTIP": { "message": "ပြန်ပြင်ပါ (Esc Key)" },
+  "SIDEPANEL_SELECT_ELEMENT_TOOLTIP": { "message": "Element ရွေးချယ်ပါ" },
+  "SIDEPANEL_SOURCE_LANGUAGE_PLACEHOLDER_AUTO": { "message": "Input (အလိုအလျောက်)" },
+  "SIDEPANEL_SWAP_LANGUAGES_TITLE": { "message": "ဘာသာစကားများ ဖလှယ်ပါ" },
+  "SIDEPANEL_SWAP_LANGUAGES_ALT": { "message": "ဖလှယ်ပါ" },
+  "SIDEPANEL_SOURCE_LANGUAGE_TITLE": { "message": "မူရင်း ဘာသာစကား" },
+  "SIDEPANEL_TARGET_LANGUAGE_TITLE": { "message": "ပစ်မှတ် ဘာသာစကား" },
+  "SIDEPANEL_COPY_SOURCE_ALT_ICON": { "message": "ကူးယူပါ" },
+  "SIDEPANEL_VOICE_SOURCE_ALT_ICON": { "message": "မူရင်း အသံထွက်" },
+  "SIDEPANEL_PASTE_SOURCE_ALT_ICON": { "message": "Paste" },
+  "SIDEPANEL_COPY_TARGET_ALT_ICON": { "message": "ရလဒ် ကူးယူပါ" },
+  "SIDEPANEL_VOICE_TARGET_ALT_ICON": { "message": "ရလဒ် အသံထွက်" },
+  "SIDEPANEL_TARGET_LANGUAGE_PLACEHOLDER": { "message": "ပစ်မှတ် ဘာသာစကား" },
+  "SIDEPANEL_VOICE_TARGET_TITLE_ICON": { "message": "အသံထွက်" },
+  "SIDEPANEL_VOICE_SOURCE_TITLE_ICON": { "message": "အသံထွက်" },
+  "SIDEPANEL_COPY_SOURCE_TITLE_ICON": { "message": "ကူးယူပါ" },
+  "SIDEPANEL_COPY_TARGET_TITLE_ICON": { "message": "ကူးယူပါ" },
+  "SIDEPANEL_PASTE_SOURCE_TITLE_ICON": { "message": "Paste" },
+
+  "history_delete": { "message": "ဖျက်ပါ" },
+  "history_delete_item": { "message": "ဤအရာကို ဖျက်ပါ" },
+
+  "STATUS_TRANSLATING_CTRLSLASH": { "message": "ဘာသာပြန်နေသည်..." },
+  "STATUS_TRANSLATING_SELECT_ELEMENT": { "message": "ဘာသာပြန်နေသည်..." },
+  "STATUS_TRANSLATING_ICON": { "message": "ဘာသာပြန်နေသည်..." },
+  "STATUS_Revert_Number": { "message": "ပြန်ပြင်ပြီး" },
+  "STATUS_REVERT_NOT_FOUND": { "message": "ပြန်ပြင်ရန် စာသား မတွေ့ပါ။" },
+  "STATUS_FROM_MEMORY": { "message": "မှတ်ဉာဏ်မှ" },
+  "STATUS_REMOVE_MEMORY": { "message": "မှတ်ဉာဏ် ရှင်းလင်းပြီး" },
+  "STATUS_SMARTTRANSLATE_COPIED": {
+    "message": "ဘာသာပြန်ကို clipboard သို့ ကူးယူပြီးပါပြီ (Ctrl+V)။"
+  },
+
+
+  "SIDEPANEL_API_PROVIDER_TOOLTIP": {
+    "message": "API ဝန်ဆောင်မှုပေးသူ ပြောင်းပါ"
+  },
+  "SIDEPANEL_HISTORY_TOOLTIP": {
+    "message": "ဘာသာပြန် မှတ်တမ်း"
+  },
+  "SIDEPANEL_HISTORY_TITLE": {
+    "message": "ဘာသာပြန် မှတ်တမ်း"
+  },
+  "SIDEPANEL_CLEAR_ALL_HISTORY": {
+    "message": "မှတ်တမ်းအားလုံး ရှင်းလင်းပါ"
+  },
+  "SIDEPANEL_CLEAR_ALL_HISTORY_TOOLTIP": {
+    "message": "ဘာသာပြန် မှတ်တမ်းအားလုံး ဖျက်ပါ"
+  },
+  "CONFIRM_CLEAR_ALL_HISTORY": {
+    "message": "ဘာသာပြန် မှတ်တမ်းအားလုံးကို ရှင်းလင်းရန် သေချာပါသလား?"
+  },
+
+  "OPTIONS_STATUS_SAVED_SUCCESS": {
+    "message": "သိမ်းဆည်းမှု အောင်မြင်သည် :)"
+  },
+  "OPTIONS_STATUS_SAVED_FAILED": {
+    "message": "သိမ်းဆည်းမှု မအောင်မြင်ပါ :("
+  },
+  "OPTIONS_STATUS_EXPORT_SUCCESS": {
+    "message": "ဆက်တင်များ ထုတ်ယူမှု အောင်မြင်သည်!"
+  },
+  "OPTIONS_STATUS_EXPORT_FAILED": {
+    "message": "ဆက်တင်များ ထုတ်ယူမရပါ။"
+  },
+  "OPTIONS_STATUS_IMPORT_SUCCESS_RELOADING": {
+    "message": "ဆက်တင်များ သွင်းယူပြီး! ပြန်လည်စတင်နေသည်..."
+  },
+  "OPTIONS_STATUS_IMPORT_FAILED": {
+    "message": "ဆက်တင်များ သွင်းယူမရပါ။ ဖိုင် မှားယွင်းနေသလား?"
+  },
+  "OPTIONS_STATUS_LOAD_FAILED": {
+    "message": "ဆက်တင်များ ဖွင့်မရပါ။"
+  },
+
+  "browser_api_settings_title": {"message": "Browser ဘာသာပြန်"},
+  "browser_api_description": {"message": "Built-in Chrome ဘာသာပြန် API။ Chrome 138+ လိုအပ်ပြီး offline အလုပ်လုပ်သည်။"},
+  "browser_api_requirements": { "message": "လိုအပ်ချက်များ -" },
+  "browser_api_requirements_chrome": {
+    "message": "Chrome 138+ (Desktop သာ)"
+  },
+  "browser_api_requirements_gpu": { "message": "GPU with 4GB+ VRAM" },
+  "browser_api_requirements_storage": { "message": "ကြီးမားသော လွတ်နေသည့် storage နေရာ (အနည်းဆုံး 22 GB)" },
+  "browser_api_requirements_internet": {
+    "message": "ကနဦး ဒေါင်းလုဒ်အတွက် အကန့်အသတ်မဲ့ အင်တာနက် ချိတ်ဆက်မှု"
+  },
+
+  "PROVIDER_MODEL_LABEL": {
+    "message": "Model"
+  },
+  "gemini_model_title": {
+    "message": "Gemini model သို့မဟုတ် စိတ်ကြိုက် URL ရွေးချယ်ပါ"
+  },
+  "openai_custom_model_placeholder": {
+    "message": "စိတ်ကြိုက် model အမည် ရိုက်ထည့်ပါ"
+  },
+  "openai_custom_model_label": { "message": "စိတ်ကြိုက် Model အမည်" },
+  "openrouter_custom_model_placeholder": {
+    "message": "စိတ်ကြိုက် model အမည် ရိုက်ထည့်ပါ (ဥပမာ - provider/model-name)"
+  },
+  "openrouter_custom_model_label": { "message": "စိတ်ကြိုက် Model အမည်" },
+  "deepseek_custom_model_placeholder": {
+    "message": "စိတ်ကြိုက် model အမည် ရိုက်ထည့်ပါ"
+  },
+  "deepseek_custom_model_label": { "message": "စိတ်ကြိုက် Model အမည်" },
+
+  "ERRORS_UNKNOWN": { "message": "မသိရှိရသော အမှားအယွင်း ဖြစ်ပေါ်ခဲ့သည်။" },
+  "ERRORS_INVALID_CONTEXT": {
+    "message": "Extension context မမှန်ကန်ပါ။ ဆက်လက်လုပ်ဆောင်ရန် စာမျက်နှာကို refresh လုပ်ပါ။"
+  },
+  "ERRORS_CONTEXT_LOST": { "message": "Extension context ပျောက်ဆုံးသွားသည်။" },
+  "ERRORS_TAB_AVAILABILITY": { "message": "Tab မရရှိနိုင်ပါ။" },
+  "ERRORS_EMPTY_PROMPT": { "message": "Prompt စာသား မမှန်ကန် သို့မဟုတ် ပျောက်ဆုံးနေသည်။" },
+  "ERRORS_NETWORK_ERROR": {
+    "message": "ကွန်ရက် အမှားအယွင်း။ သင့်အင်တာနက် ချိတ်ဆက်မှုကို စစ်ဆေးပါ။"
+  },
+  "ERRORS_HTTP_ERROR": {
+    "message": "ဆာဗာနှင့် ဆက်သွယ်ရာတွင် HTTP အမှားအယွင်း ဖြစ်ပေါ်ခဲ့သည်။"
+  },
+  "ERRORS_API_KEY_MISSING": { "message": "API Key ပျောက်ဆုံးနေသည်။" },
+  "ERRORS_API_KEY_INVALID": {
+    "message": "API Key မမှန်ကန် သို့မဟုတ် ခွင့်ပြုချက်မရှိပါ။"
+  },
+  "ERRORS_API_URL_MISSING": { "message": "API URL ပျောက်ဆုံးနေသည်။" },
+  "ERRORS_MODEL_MISSING": {
+    "message": "ရွေးချယ်ထားသော AI Model ပျောက်ဆုံး သို့မဟုတ် မမှန်ကန်ပါ။"
+  },
+  "ERRORS_INVALID_REQUEST": {
+    "message": "တောင်းဆိုမှု ပုံစံ သို့မဟုတ် ကန့်သတ်ချက်များ မမှန်ကန်ပါ။"
+  },
+  "ERRORS_INSUFFICIENT_BALANCE": {
+    "message": "ရွေးချယ်ထားသော API အတွက် လက်ကျန်ငွေ သို့မဟုတ် credits မလုံလောက်ပါ။"
+  },
+  "ERRORS_FORBIDDEN_ERROR": {
+    "message": "ဝင်ရောက်ခွင့် ငြင်းပယ်ခံရသည်။ ခွင့်ပြုချက်များ သို့မဟုတ် အကြောင်းအရာ စိစစ်မှုများကို စစ်ဆေးပါ။"
+  },
+  "ERRORS_RATE_LIMIT_REACHED": {
+    "message": "နှုန်းထား ကန့်သတ်ချက် ပြည့်သွားပါပြီ။ ကျေးဇူးပြု၍ ခဏနားပြီးမှ ထပ်မံ ကြိုးစားပါ။"
+  },
+  "ERRORS_SERVER_ERROR": {
+    "message": "ဝန်ဆောင်မှုပေးသူ၏ ဆာဗာတွင် အမှားအယွင်း ဖြစ်ပေါ်ခဲ့သည်။ ကျေးဇူးပြု၍ နောက်မှ ထပ်ကြိုးစားပါ။"
+  },
+  "ERRORS_MODEL_OVERLOADED": {
+    "message": "AI Model တွင် ဝန်ပိနေသည်။ ကျေးဇူးပြု၍ ခဏနေမှ ထပ်ကြိုးစားပါ။"
+  },
+  "ERRORS_QUOTA_EXCEEDED": {
+    "message": "ဤ API အတွက် သင့် quota ပြည့်သွားပါပြီ။"
+  },
+  "ERRORS_DEEPL_QUOTA_EXCEEDED": {
+    "message": "DeepL စာလုံး ကန့်သတ်ချက် ကျော်လွန်သွားပါပြီ။ အခမဲ့ အဆင့်: ၅၀၀,၀၀၀ စာလုံး/လ။ သင့် DeepL အကောင့် ဆက်တင်များကို စစ်ဆေးပါ သို့မဟုတ် plan မြှင့်တင်ပါ။"
+  },
+  "ERRORS_GEMINI_QUOTA_REGION": {
+    "message": "Gemini quota ကျော်လွန်သွားပါပြီ၊ ဒေသဆိုင်ရာ ကန့်သတ်ချက်ကြောင့် ဖြစ်နိုင်ပါသည်။"
+  },
+  "ERRORS_IMPORT_PASSWORD_REQUIRED": {
+    "message": "Encrypt လုပ်ထားသော ဆက်တင်များကို သွင်းယူရန် စကားဝှက် လိုအပ်သည်။"
+  },
+  "ERRORS_IMPORT_PASSWORD_INCORRECT": {
+    "message": "စကားဝှက် မှားယွင်းနေသည် သို့မဟုတ် ဒေတာ ပျက်စီးနေသည်။"
+  },
+  "ERRORS_LANGUAGE_PAIR_NOT_SUPPORTED": {
+    "message": "ရွေးချယ်ထားသော ဘာသာစကား အတွဲကို Chrome Translation API မှ မပံ့ပိုးပါ။ အခြား ဘာသာပြန် ဝန်ဆောင်မှု သို့မဟုတ် ဘာသာစကား တွဲဖက်မှုကို စမ်းကြည့်ပါ။"
+  },
+
+  "gemini_thinking_label": {
+    "message": "စဉ်းစားခြင်း စနစ် ဖွင့်ပါ"
+  },
+  "gemini_thinking_description": {
+    "message": "မတုံ့ပြန်မီ အဆင့်လိုက် စဉ်းစားရန် model ကို ခွင့်ပြုပါ။"
+  },  "advance_section_title": { "message": "အဆင့်မြင့် ဆက်တင်များ" },
+  "prompt_source_help": { "message": "သင့် prompt အတွက် မူရင်း ဘာသာစကားကို ရွေးပါ။" },
+  "prompt_target_help": { "message": "သင့် prompt အတွက် ပစ်မှတ် ဘာသာစကားကို ရွေးပါ။" },
+  "prompt_text_help": { "message": "သင် ဘာသာပြန်လိုသော သို့မဟုတ် လုပ်ဆောင်လိုသော စာသားကို ရိုက်ထည့်ပါ။" },
+  "export_success_plaintext": { "message": "ဆက်တင်များ အောင်မြင်စွာ ထုတ်ယူပြီး (API keys များကို plain text ဖြင့် သိမ်းဆည်းသည်)။" },
+  "import_error_generic": { "message": "ဆက်တင်များ သွင်းယူမရပါ။" },
+  "import_error_password": { "message": "သွင်းယူမှု မအောင်မြင်ပါ - စကားဝှက် မှားယွင်းနေသည်။" },
+
+  "appearance_section_title": { "message": "အသွင်အပြင်" },
+  "font_settings_title": { "message": "ဖောင့် ဆက်တင်များ" },
+  "font_settings_description": { "message": "ဘာသာပြန် ပြသမှုအတွက် ဖောင့်နှင့် အရွယ်အစားကို စိတ်ကြိုက်ပြင်ဆင်ပါ" },
+  "font_family_label": { "message": "ဖောင့် အမျိုးအစား" },
+  "font_size_label": { "message": "ဖောင့် အရွယ်အစား" },
+  "font_preview_label": { "message": "နမူနာ" },
+  "font_family_required": { "message": "ဖောင့် အမျိုးအစား လိုအပ်သည်" },
+  "font_size_invalid": { "message": "ဖောင့် အရွယ်အစားသည် ကိန်းဂဏန်း ဖြစ်ရမည်" },
+  "font_size_range_error": { "message": "ဖောင့် အရွယ်အစားသည် 10 နှင့် 30 pixel ကြား ဖြစ်ရမည်" },
+  "font_family_update_error": { "message": "ဖောင့် အမျိုးအစား ပြောင်းလဲမရပါ" },
+  "font_size_update_error": { "message": "ဖောင့် အရွယ်အစား ပြောင်းလဲမရပါ" },
+  "font_validation_failed": { "message": "ဖောင့် ဆက်တင် စစ်ဆေးမှု မအောင်မြင်ပါ" },
+  "search_fonts_placeholder": { "message": "ဖောင့်များကို ရှာပါ..." },
+  "loading_fonts": { "message": "ဖောင့်များကို ဖွင့်နေသည်..." },
+  "no_fonts_found": { "message": "ဖောင့်များ မတွေ့ပါ" },
+  "system_font": { "message": "System" },
+  "font_loading_error": { "message": "ဖောင့်များ ဖွင့်မရပါ" },
+
+  "SELECT_ELEMENT_MODE_ACTIVATED": { "message": "Element ရွေးချယ်မှု စနစ် ဖွင့်ထားသည်။ ဘာသာပြန်ရန် မည်သည့် စာသား element ကိုမဆို နှိပ်ပါ။" },
+  "SELECT_ELEMENT_TRANSLATING": { "message": "ဘာသာပြန်နေသည်..." },
+  "SELECT_ELEMENT_CANCEL": { "message": "မလုပ်တော့ပါ" },
+  "SELECT_ELEMENT_REVERT": { "message": "ပြန်ပြင်ပါ" },
+  "SELECT_ELEMENT_BING_WARNING": { "message": "Bing သည် ရှည်လျားသော သို့မဟုတ် ရှုပ်ထွေးသော စာသားများတွင် အခက်အခဲ ရှိနိုင်သည်။ အမှားအယွင်း ကြုံတွေ့ရပါက အခြား provider တစ်ခုကို ပြောင်းသုံးကြည့်ပါ။" },
+
+  "text_field_shortcut_label": { "message": "စိတ်ကြိုက် ဖြတ်လမ်း -" },
+  "click_to_set_shortcut": { "message": "ဖြတ်လမ်း သတ်မှတ်ရန် နှိပ်ပါ" },
+  "text_field_shortcut_description": { "message": "စာသား ကွက်လပ်များတွင် ဘာသာပြန်ရန် သင့်နှစ်သက်ရာ ကီးဘုတ် ဖြတ်လမ်းကို ရွေးချယ်ပါ။" },
+  "shortcut_recording_title": { "message": "သင့် ဖြတ်လမ်းကို နှိပ်ပါ" },
+  "shortcut_recording_instruction": { "message": "ဤဖြတ်လမ်းအတွက် သင်သုံးလိုသော ခလုတ်များကို နှိပ်ပါ။" },
+  "shortcut_waiting": { "message": "ခလုတ်များကို စောင့်နေသည်..." },
+  "cancel": { "message": "မလုပ်တော့ပါ" },
+  "clear": { "message": "ရှင်းလင်းပါ" },
+  "confirm": { "message": "အတည်ပြုပါ" },
+
+  "api_test_button": { "message": "Key များ စစ်ဆေးပါ" },
+  "api_test_testing": { "message": "စစ်ဆေးနေသည်..." },
+  "api_test_no_keys": { "message": "စစ်ဆေးရန် key မရှိပါ" },
+  "api_test_result_partial": { "message": "မှန်ကန်သော key {valid} ခု၊ မမှန်ကန်သော key {invalid} ခု တွေ့ရှိသည်" },
+  "api_test_result_all_invalid": { "message": "Key {count} ခုစလုံး မမှန်ကန်ပါ" },
+  "api_test_unknown_provider": { "message": "မသိရှိသော provider - {provider}" },
+  "api_test_failed": { "message": "Key များ စစ်ဆေးမရပါ - {error}" },
+  "api_key_tips": { "message": "💡 တစ်ကြောင်းလျှင် API key တစ်ခု ရိုက်ထည့်ပါ" },
+
+  "validation_source_language_empty": { "message": "မူရင်း ဘာသာစကား ဗလာမဖြစ်ရပါ။" },
+  "validation_target_language_empty": { "message": "ပစ်မှတ် ဘာသာစကား ဗလာမဖြစ်ရပါ။" },
+  "validation_same_languages": { "message": "မူရင်းနှင့် ပစ်မှတ် ဘာသာစကား တူညီ၍ မရပါ။" },
+  "validation_api_key_empty": { "message": "{provider} အတွက် API key ဗလာမဖြစ်ရပါ။" },
+  "validation_api_key_too_short": { "message": "API key တိုလွန်းနေပုံရသည်။" },
+  "validation_api_key_invalid": { "message": "API key သည် ကွက်လပ်မပါဘဲ အနည်းဆုံး စာလုံး ၁၀ လုံး ရှိရမည်" },
+  "validation_prompt_template_empty": { "message": "Prompt template ဗလာမဖြစ်ရပါ။" },
+  "validation_prompt_template_missing_placeholders": { "message": "Prompt template တွင် {placeholders} ပါဝင်ရမည်" },
+  "validation_invalid_domains": { "message": "မမှန်ကန်သော domain(s) - {domains}" },
+  "validation_import_file_required": { "message": "ကျေးဇူးပြု၍ သွင်းယူရန် ဖိုင်တစ်ခု ရွေးပါ။" },
+  "validation_import_file_json_only": { "message": "JSON ဖိုင်များသာ ပံ့ပိုးသည်။" },
+  "validation_import_file_too_large": { "message": "ဖိုင်အရွယ်အစား 5MB အောက် ဖြစ်ရမည်။" },
+  "validation_field_required": { "message": "ဤကွက်လပ် လိုအပ်သည်" },
+  "validation_min_length": { "message": "အနည်းဆုံး {min} လုံး ရှိရမည်" },
+  "validation_max_length": { "message": "{max} လုံးထက် မပိုရပါ" },
+  "validation_invalid_email": { "message": "မှန်ကန်သော အီးမေးလ် လိပ်စာ ဖြစ်ရမည်" },
+  "validation_invalid_url": { "message": "မှန်ကန်သော URL ဖြစ်ရမည်" },
+
+  "history_title": { "message": "ဘာသာပြန် မှတ်တမ်း" },
+  "history_items_count": { "message": "{count} ခု" },
+  "history_search_placeholder": { "message": "မှတ်တမ်း ရှာပါ..." },
+  "history_filter": { "message": "စစ်ထုတ်ပါ" },
+  "history_filter_tooltip": { "message": "စစ်ထုတ်ရန် ရွေးချယ်စရာများ" },
+  "history_filter_by_provider": { "message": "Provider ဖြင့် စစ်ထုတ်ပါ" },
+  "history_all_providers": { "message": "Provider အားလုံး" },
+  "history_filter_by_type": { "message": "အမျိုးအစားဖြင့် စစ်ထုတ်ပါ" },
+  "history_text_translations": { "message": "စာသား ဘာသာပြန်များ" },
+  "history_image_translations": { "message": "ပုံ ဘာသာပြန်များ" },
+  "history_time_period": { "message": "အချိန် ကာလ" },
+  "history_time_all": { "message": "အားလုံး" },
+  "history_time_today": { "message": "ယနေ့" },
+  "history_time_week": { "message": "ယခုအပတ်" },
+  "history_time_month": { "message": "ယခုလ" },
+  "history_sort": { "message": "စီပါ" },
+  "history_sort_tooltip": { "message": "စီရန် ရွေးချယ်စရာများ" },
+  "history_sort_by_date": { "message": "ရက်စွဲဖြင့်" },
+  "history_sort_by_provider": { "message": "Provider ဖြင့်" },
+  "history_sort_by_length": { "message": "စာသား အရှည်ဖြင့်" },
+  "history_sort_newest": { "message": "အသစ်ဆုံး အရင်" },
+  "history_sort_oldest": { "message": "အဟောင်းဆုံး အရင်" },
+  "history_clear_all": { "message": "အားလုံး ရှင်းလင်းပါ" },
+  "history_clear_all_tooltip": { "message": "မှတ်တမ်းအားလုံး ရှင်းလင်းပါ" },
+  "history_loading": { "message": "မှတ်တမ်း ဖွင့်နေသည်..." },
+  "history_no_results": { "message": "ရလဒ် မတွေ့ပါ" },
+  "history_no_history": { "message": "ဘာသာပြန် မှတ်တမ်း မရှိသေးပါ" },
+  "history_no_results_hint": { "message": "ရှာဖွေမှု သို့မဟုတ် filter များကို ပြင်ဆင်ကြည့်ပါ" },
+  "history_no_history_hint": { "message": "သင့် ဘာသာပြန်များ ဤနေရာတွင် ပေါ်လာပါမည်" },
+  "history_type_image": { "message": "ပုံ" },
+  "history_type_text": { "message": "စာသား" },
+  "history_label_source": { "message": "မူရင်း -" },
+  "history_label_translation": { "message": "ဘာသာပြန် -" },
+  "history_label_confidence": { "message": "ယုံကြည်မှု -" },
+  "history_retranslate_tooltip": { "message": "ပြန်လည် ဘာသာပြန်ပါ" },
+  "history_more_actions_tooltip": { "message": "နောက်ထပ် လုပ်ဆောင်ချက်များ" },
+  "history_action_edit": { "message": "ပြင်ဆင်ပါ" },
+  "history_action_favorite": { "message": "အကြိုက်ဆုံး" },
+  "history_action_unfavorite": { "message": "အကြိုက်ဆုံးမှ ဖယ်ရှားပါ" },
+  "history_action_export": { "message": "ထုတ်ယူပါ" },
+  "history_action_delete": { "message": "ဖျက်ပါ" },
+  "history_page_first": { "message": "ပထမ စာမျက်နှာ" },
+  "history_page_previous": { "message": "ယခင် စာမျက်နှာ" },
+  "history_page_next": { "message": "နောက် စာမျက်နှာ" },
+  "history_page_last": { "message": "နောက်ဆုံး စာမျက်နှာ" },
+  "history_page_info": { "message": "စာမျက်နှာ {total} တွင် {current}" },
+  "history_items_selected": { "message": "{count} ခု ရွေးထားသည်" },
+  "history_items_selected_plural": { "message": "{count} ခု ရွေးထားသည်" },
+  "history_bulk_export": { "message": "ထုတ်ယူပါ" },
+  "history_bulk_delete": { "message": "ဖျက်ပါ" },
+  "history_bulk_cancel": { "message": "မလုပ်တော့ပါ" },
+  "history_copy_all_selected_tooltip": { "message": "ရွေးထားသမျှ အားလုံး ကူးယူပါ" },
+  "history_clear_confirm_title": { "message": "မှတ်တမ်း ရှင်းလင်းပါ" },
+  "history_clear_confirm_message": { "message": "ဘာသာပြန် မှတ်တမ်းအားလုံးကို ရှင်းလင်းရန် သေချာပါသလား?" },
+  "history_clear_confirm_warning": { "message": "ဤလုပ်ဆောင်ချက်ကို ပြန်ပြင်၍ မရနိုင်ပါ။" },
+  "history_clear_confirm_button": { "message": "အားလုံး ရှင်းလင်းပါ" },
+  "history_copied_feedback": { "message": "{count} ခု clipboard သို့ ကူးယူပြီး!" },
+  "history_cleared_feedback": { "message": "မှတ်တမ်း ရှင်းလင်းပြီး" },
+  "history_deleted_feedback": { "message": "ဘာသာပြန် {count} ခု ဖျက်ပြီးပါပြီ" },
+  "history_delete_confirm_message": { "message": "ဤဘာသာပြန်ကို ဖျက်ရန် သေချာပါသလား?" },
+  "history_bulk_delete_confirm_message": { "message": "ဘာသာပြန် {count} ခုကို ဖျက်ရန် သေချာပါသလား?" },
+
+  "window_copy_translation": { "message": "ဘာသာပြန် ကူးယူပါ" },
+  "window_close": { "message": "ပိတ်ပါ" },
+  "window_tts_no_text": { "message": "အသံထွက်ရန် စာသား မရှိပါ" },
+  "window_tts_stop": { "message": "အသံ ရပ်ပါ (ရပ်ရန် နှိပ်ပါ)" },
+  "window_tts_speak_original": { "message": "🔊 မူရင်းစာသား အသံထွက်ပါ (မူရင်း အရင်ပြပါ၊ ပြီးမှ ဤခလုတ်နှိပ်ပါ)" },
+  "window_tts_speak_translation": { "message": "🔊 ဘာသာပြန် အသံထွက်ပါ (လက်ရှိ mode: ဘာသာပြန်)" },
+  "window_show_original": { "message": "မူရင်း စာသား ပြပါ (ထို့နောက် နားထောင်ရန် speaker ခလုတ် သုံးနိုင်သည်)" },
+  "window_hide_original": { "message": "မူရင်း စာသား ဝှက်ပါ (TTS ခလုတ်သည် ယခု မူရင်းစာသားကို အသံထွက်ပါမည်)" },
+  "window_loading_alt": { "message": "ဖွင့်နေသည်..." },
+  "window_translation_placeholder": { "message": "ဘာသာပြန် ဤနေရာတွင် ပေါ်လာပါမည်..." },
+
+  "action_copy_text": { "message": "စာသား ကူးယူပါ" },
+  "action_copy_to_clipboard": { "message": "စာသားကို clipboard သို့ ကူးယူပါ" },
+  "action_paste_from_clipboard": { "message": "Clipboard မှ Paste လုပ်ပါ" },
+  "action_speak_text": { "message": "စာသား အသံထွက်ပါ" },
+  "action_stop_speaking": { "message": "အသံ ရပ်ပါ" },
+
+  "translateSelectedText": { "message": "ရွေးချယ်ထားသော စာသားကို ဘာသာပြန်ပါ" }
+}

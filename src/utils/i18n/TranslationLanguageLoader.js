@@ -70,7 +70,8 @@ const TRANSLATION_LANGUAGE_CHUNKS = {
   'az': 'locales/az',
   'be': 'locales/be',
   'ca': 'locales/ca',
-  'fil': 'locales/fil'
+  'fil': 'locales/fil',
+  'my': 'locales/my'
 };
 
 // Core translation languages that should be preloaded
